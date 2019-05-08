@@ -1,0 +1,26 @@
+#include "pch.h"
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int n;
+	int v[5];
+	cout << "n= ";
+	cin >> n;    
+
+	for (int i = 0; i < n; i++)                
+	{
+		cout << "v[" << i << "]= ";
+		cin >> v[i];
+	}
+	cout << "Numerele introduse sunt: ";
+
+	for (int i = 0; i < 5; i++)               
+	{
+		cout << v[i] << " ";
+	}
+
+	system("pause");
+	return 0;
+}
